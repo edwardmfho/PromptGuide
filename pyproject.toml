@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "promptguide"
+version = "0.1.0"
+description = "This package helps you to craft out prompts that are useful for most LLM models, in order to get better results for your queries."
+authors = ["Edward Ho"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.1.11"
+langchain-openai = "^0.0.8"
+streamlit = "^1.31.1"
+python-dotenv = "^1.0.1"
+ipython = "^8.22.2"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+gunicorn = "^21.2.0"
+aioredis = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
