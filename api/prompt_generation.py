@@ -42,7 +42,7 @@ END OF INITIAL PROMPT\n\n
 Now, you need to create an example prompt such that it meets the above requirements.
 You should also ask the users to clarify some of the thing that they are not clear about, 
 and provide some suggestion on how to address these ambiguities only based on the 
-six requirements we mentioned above.
+six requirements we mentioned above. Create the example prompt in the same language as the initial prompt you modified; for example if it is in Chinese, then give your answer in Chinese.
 
 """
 from langchain_core.pydantic_v1 import BaseModel, Field
